@@ -1,0 +1,18 @@
+Typo Enclosure on Steroide
+==========================
+
+Typo Enclosure on Steroide displays an article attachments at the end of the post, eventually using specific view according to file type.
+
+Currently, supported type are :
+* MP3, using Dew mp3 player
+
+
+Example
+=======
+
+To include Typo Enclosure on Steroide into your Typo template, edit the view/_article.html.erb file, and add the following code at the place you want to display your attachments:
+
+<%= display_resources(article) %> 
+
+
+Copyright (c) 2009 Frédéric de Villamil, released under the MIT license
